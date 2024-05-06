@@ -4,6 +4,8 @@ namespace GettyImages\Api\Curler {
 
     class Curler implements ICurler
     {
+        private $options;
+        
         public function execute($options)
         {
             $this->options = $options;
